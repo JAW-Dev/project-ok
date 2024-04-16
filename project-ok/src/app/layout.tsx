@@ -8,9 +8,7 @@ import ThemeProvider from "@/components/ThemeProvider/ThemeProvider";
 import NavBar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 // Fonts
-import { Inter as FontSans } from "next/font/google"
-
-const inter = Inter({ subsets: ["latin"] });
+import { Inter as FontSans } from "next/font/google";
 
 const fontSans = FontSans({
   subsets: ["latin"],
